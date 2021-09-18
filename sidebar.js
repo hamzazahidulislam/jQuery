@@ -2,7 +2,9 @@ import spUtils from './Util';
 import spDetector from './detector';
 
 spUtils.$document.ready(() => {
-conat HOME = document.querySelector("#home");
+const HOME = document.querySelector("#home");
+const PAGE = document.querySelector(".page");
+const CLOSEAREA = document.querySelector(".sticky-area");
   const Selector = {
     HOME: '#home',
     PAGE: '.page',
