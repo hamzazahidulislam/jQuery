@@ -2,7 +2,7 @@ import spUtils from './Util';
 import spDetector from './detector';
 
 spUtils.$document.ready(() => {
-
+conat HOME = document.querySelector("#home");
   const Selector = {
     HOME: '#home',
     PAGE: '.page',
